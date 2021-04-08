@@ -1,4 +1,4 @@
-img {
+.project-img {
   width: 30vw;
   /* height: fit-content; */
   height: 40vh;
@@ -9,7 +9,8 @@ img {
 
 .container {
   background-color: #3f3f3caf;
-
+  padding-top: 10px;
+  padding-bottom: 10px;
   height: 70vh;
   border-radius: 20px;
   display: flex;
@@ -33,6 +34,7 @@ img {
   margin-left: 80px;
   border-radius: 20px;
   transition: all 0.3s ease-in-out;
+  /* overflow-y: scroll; */
 }
 
 .project-title,
@@ -42,6 +44,7 @@ img {
 
 .brief {
   text-align: left;
+  overflow-y: scroll;
 }
 
 .project:hover {
