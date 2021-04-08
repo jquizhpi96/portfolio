@@ -10,14 +10,14 @@ img {
 .container {
   background-color: #3f3f3caf;
 
-  height: 90vh;
+  height: 70vh;
   border-radius: 20px;
   display: flex;
 
   width: 95vw;
   align-items: center;
   margin: 0 auto;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 .projects {
@@ -29,9 +29,10 @@ img {
   padding: 20px;
   background-color: rgb(255, 255, 255);
   max-width: 60vw;
-  height: 70vh;
+  height: 60vh;
   margin-left: 80px;
   border-radius: 20px;
+  transition: all 0.3s ease-in-out;
 }
 
 .project-title,
@@ -41,4 +42,14 @@ img {
 
 .brief {
   text-align: left;
+}
+
+.project:hover {
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  max-width: 60vw;
+  height: 70vh;
+  margin-left: 80px;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
 }
