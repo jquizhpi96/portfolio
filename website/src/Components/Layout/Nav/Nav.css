@@ -1,0 +1,24 @@
+.nav {
+  /* display: flex; */
+  /* display: flex; */
+  padding: 2rem;
+  /* flex-direction: row; */
+}
+
+.list {
+  list-style-type: none;
+  margin: 0px;
+  display: flex;
+  justify-content: flex-end;
+  max-width: 90%;
+}
+
+li {
+  display: inline;
+  padding-left: 100px;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}

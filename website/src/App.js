@@ -2,9 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 import { Route } from 'react-router';
 import Home from './Components/Home/Home';
+import Layout from './Components/Layout/Layout';
 
 function App() {
   return (
+
     <div className="App">
 
       {/* <img src={logo} className="App-logo" alt="logo" /> */}
@@ -14,7 +16,8 @@ function App() {
       <Route path="/contact">Contact</Route>
 
     </div>
+
   );
-}
+};
 
 export default App;
