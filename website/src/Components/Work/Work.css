@@ -1,0 +1,44 @@
+img {
+  width: 30vw;
+  /* height: fit-content; */
+  height: 40vh;
+  /* display: none; */
+  border-radius: 20px;
+  margin: 0;
+}
+
+.container {
+  background-color: #3f3f3caf;
+
+  height: 90vh;
+  border-radius: 20px;
+  display: flex;
+
+  width: 95vw;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.projects {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.project {
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  max-width: 60vw;
+  height: 70vh;
+  margin-left: 80px;
+  border-radius: 20px;
+}
+
+.project-title,
+.brief {
+  color: black;
+}
+
+.brief {
+  text-align: left;
+}
