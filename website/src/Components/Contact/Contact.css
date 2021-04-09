@@ -1,0 +1,30 @@
+.social {
+  width: 20vh;
+  filter: invert(100);
+  margin-left: 25px;
+  margin-right: 25px;
+  border-radius: 20px;
+}
+
+.contact-page {
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.contact {
+  margin: 50px 0 60px 0;
+  font-size: 50px;
+}
+
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.social2 {
+  margin-left: 25px;
+  margin-right: 25px;
+}
