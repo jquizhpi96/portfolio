@@ -14,14 +14,14 @@ function Contact(props) {
       <div className="contact-page">
         <h1 className="contact">Contact Me</h1>
         <div className="socials">
-          <a href="https://github.com/jquizhpi96">
+          <a target="_blank"href="https://github.com/jquizhpi96">
             <img
               className="social"
               src=" https://res.cloudinary.com/briandanger/image/upload/v1568954107/linkedin_vnvo6s.png"
               alt="LinkedIn"
             />
           </a>
-          <a href="https://www.linkedin.com/in/jason-quizhpi-30a41b169/">
+          <a target="_blank"href="https://www.linkedin.com/in/jason-quizhpi-30a41b169/">
             {" "}
             <img
               className="social"

@@ -3,8 +3,10 @@ h1 {
 }
 
 .body {
-  height: 100vh;
+  /* height: 100vh; */
   transition: all 0.2s ease-in-out;
+
+  /* background-image: linear-gradient(red, yellow); */
 }
 
 .hero-box {
@@ -13,6 +15,10 @@ h1 {
   flex-direction: column;
   max-width: 90%;
   transition: all 0.2s ease-in-out;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
 }
 
 .title,
@@ -20,6 +26,11 @@ h1 {
   font-size: 2.2em;
   line-height: 160%;
   letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  z-index: 2;
 }
 
 .sub-title {
@@ -28,5 +39,50 @@ h1 {
   font-weight: 300;
 }
 .name {
-  font-size: 3.5em;
+  font-size: 5.5em;
+  font-family: "Jost", sans-serif;
+  line-height: 100px;
+  /* text-shadow: 2px 2px #7c7c7c; */
+  color: rgb(73, 173, 255);
+  text-shadow: 2px 2px #003ee9;
+  z-index: 2;
+  transition: ease-in-out 0.3s;
+}
+
+/* .name:hover {
+  text-shadow: 0 0 10px rgb(71, 166, 255), 0 0 20px rgb(72, 255, 0),
+    0 0 30px #25deff, 0 0 40px #0a1aff;
+  color: rgb(255, 255, 230); */
+/* color: rgb(73, 173, 255);
+  text-shadow: 2px 2px #003ee9; */
+/* transition: ease-in-out 0.3s;
+} */
+.load {
+  position: relative;
+  bottom: 360px;
+  /* width: 200px; */
+  width: 500px;
+
+  opacity: 0.5;
+  /* position: relative;
+  opacity: 0.5;
+  filter: invert(100); */
+}
+/* @media (prefers-reduced-motion: no-preference) {
+  .load {
+    animation: App-logo-spin infinite 10s linear;
+  }
+} */
+.arrow:hover {
+  color: rgb(73, 173, 255);
+  transition: ease-in-out 0.2s;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

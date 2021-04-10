@@ -24,11 +24,12 @@
 .projects {
   display: flex;
   overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .project {
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.425);
+  background-color: rgba(0, 0, 0, 0.425);
   max-width: 60vw;
   height: 60vh;
   margin-left: 80px;
