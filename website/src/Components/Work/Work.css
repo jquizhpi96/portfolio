@@ -33,7 +33,7 @@
 .project {
   padding: 20px;
   background-color: rgb(10, 10, 10);
-  max-width: 60vw;
+  width: 60vw;
   height: 60vh;
   margin-left: 80px;
   border-radius: 20px;
@@ -54,7 +54,7 @@
 .project:hover {
   padding: 20px;
   background-color: rgb(255, 255, 255);
-  max-width: 60vw;
+  width: 60vw;
   height: 77vh;
   margin-left: 80px;
   border-radius: 20px;
@@ -112,11 +112,12 @@
 
   .project {
     margin-left: 10px;
-    margin-right: 10px;
-    max-width: 80vw;
+    margin-right: 0px;
+    width: 85vw;
     height: 75vh;
     background-color: rgb(255, 255, 255);
     margin-bottom: 30px;
+    padding: 10px;
   }
   .project:hover {
     height: 75vh;
