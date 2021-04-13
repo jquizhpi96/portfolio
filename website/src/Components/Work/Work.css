@@ -86,15 +86,15 @@
     width: 100vw;
   }
   .project-img {
-    width: 600px;
-    height: 500px;
+    width: 60vw;
+    height: 40vh;
   }
   .project {
     height: 50vh;
+    width: 62vw;
   }
   .project:hover {
     height: 60vh;
-    width: 600px;
   }
 }
 
