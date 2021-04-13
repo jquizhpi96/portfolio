@@ -9,6 +9,7 @@ import Layout from '../Layout/Layout';
 function Work(props) {
   return (
     <Layout>
+      <div className="work-page">
     <div className="container">
       <div className="projects" >
         <div className="project">
@@ -53,7 +54,8 @@ function Work(props) {
         </div>
       </div>
 
-      </div>
+        </div>
+        </div>
       </Layout>
   );
 }

@@ -6,6 +6,9 @@
   border-radius: 20px;
   margin: 0;
 }
+.work-page {
+  height: 100vh;
+}
 
 .container {
   background-color: #191919;
@@ -96,9 +99,15 @@
   .container {
     /* height: 100vh; */
     display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   .project-img {
     width: 80vw;
+  }
+  .brief {
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 }

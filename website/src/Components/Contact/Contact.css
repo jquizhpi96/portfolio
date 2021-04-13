@@ -11,6 +11,7 @@
   justify-items: center;
   flex-direction: column;
   flex-wrap: wrap;
+  height: 100vh;
 }
 
 .contact {
@@ -27,4 +28,17 @@
 .social2 {
   margin-left: 25px;
   margin-right: 25px;
+}
+
+@media screen and (max-width: 480px) {
+  .socials {
+    flex-direction: column;
+  }
+  img.social {
+    width: 10vh;
+    margin-bottom: 40px;
+  }
+  .contact-page {
+    height: 100vh;
+  }
 }
