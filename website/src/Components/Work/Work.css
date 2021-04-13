@@ -82,6 +82,9 @@
 }
 
 @media screen and (max-width: 480px) {
+  .work-page {
+    height: 330vh;
+  }
   .projects {
     flex-direction: column;
     justify-content: center;
