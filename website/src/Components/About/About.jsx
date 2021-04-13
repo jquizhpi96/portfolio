@@ -21,6 +21,8 @@ function About(props) {
             Software Developer in an environment where I feel I can continue to
             grow and help produce amazing projects.
           </div>
+          <p> <a target="_blank" rel="noreferrer"href="https://jquizhpi96.wixsite.com/mysite">Click here to check out my art
+</a></p>
           <p>
             To learn more about my professional background
             <a target="_blank" rel="noreferrer"href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:62277453-c12e-4f57-835b-35f001897f61"> click here to view my
