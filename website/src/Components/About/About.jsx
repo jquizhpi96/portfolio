@@ -7,8 +7,9 @@ function About(props) {
   return (
     <Layout>
       <div className="about-page">
+        <div>
         <img className="profile" src={profile} alt="profile" />
-
+        </div>
         <div className="bio">
           <div className="about-me">About Me</div>
           <div className="desc">
