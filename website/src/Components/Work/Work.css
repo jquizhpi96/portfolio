@@ -84,6 +84,7 @@
 @media screen and (max-width: 480px) {
   .work-page {
     height: 330vh;
+    width: 100vw;
   }
   .projects {
     flex-direction: column;
@@ -96,12 +97,12 @@
     margin-left: 10px;
     margin-right: 10px;
     max-width: 80vw;
-    height: 72vh;
+    height: 75vh;
     background-color: rgb(255, 255, 255);
     margin-bottom: 20px;
   }
   .project:hover {
-    height: 70vh;
+    height: 75vh;
     max-width: 80vw;
     transition: all 0.3s ease-in-out;
     margin-left: 10px;
