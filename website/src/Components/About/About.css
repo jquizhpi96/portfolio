@@ -38,7 +38,7 @@ p {
   font-size: 18px;
 }
 @media screen and (max-width: 1024px) {
-  .desc {
+  /* .desc {
     margin-right: 0px;
     margin-left: 0px;
   }
@@ -46,17 +46,18 @@ p {
     height: 100vh;
     padding: 50px;
     margin-top: 20px;
-  }
+  } */
   img.profile {
     margin-left: 0;
     margin-right: 40px;
-    width: 40vw;
+    width: 50vw;
   }
 }
 
 @media screen and (max-width: 480px) {
   img.profile {
     width: 70vw;
+    margin-right: 0px;
   }
 
   .about-page {
