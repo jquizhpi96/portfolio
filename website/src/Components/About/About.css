@@ -50,6 +50,7 @@ p {
   img.profile {
     margin-left: 0;
     margin-right: 40px;
+    width: 40vw;
   }
 }
 
