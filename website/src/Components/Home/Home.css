@@ -121,10 +121,7 @@ h1 {
     font-size: 5em;
   }
   .title2 {
-    animation: type 3s steps(22);
     font-size: 26px;
-    width: 22ch;
-    border-right: 1px solid rgba(255, 255, 255, 0.329);
   }
   .skill-text {
     animation: blinking 1s infinite;
@@ -133,7 +130,7 @@ h1 {
     0%,
     100% {
       border-right: 2px solid transparent;
-      margin-left: 2px;
+      /* margin-left: 2px; */
     }
     100% {
       border-right: 2px solid white;
