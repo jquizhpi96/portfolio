@@ -81,6 +81,22 @@
   border-radius: 5px;
 }
 
+@media screen and (max-width: 1024px) {
+  .projects {
+    width: 100vw;
+  }
+  .project-img {
+    width: 600px;
+    height: 500px;
+  }
+  .project {
+    height: 50vh;
+  }
+  .project:hover {
+    height: 60vh;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .work-page {
     height: 355vh;

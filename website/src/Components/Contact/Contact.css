@@ -30,6 +30,16 @@
   margin-right: 25px;
 }
 
+@media screen and (max-width: 1024px) {
+  img.social {
+    width: 10vh;
+  }
+
+  .socail2 {
+    width: 105vh;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .socials {
     flex-direction: column;
