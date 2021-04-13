@@ -121,9 +121,9 @@ h1 {
     font-size: 5em;
   }
   .title2 {
-    animation: type 3s steps(18);
+    animation: type 3s steps(19);
     font-size: 26px;
-    width: 18ch;
+    width: 19ch;
   }
   .skill-text {
     animation: blinking 1s infinite;
