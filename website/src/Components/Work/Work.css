@@ -91,13 +91,20 @@
     overflow-x: none;
     overflow-y: none;
   }
+
   .project {
     margin-left: 10px;
     margin-right: 10px;
     max-width: 80vw;
     height: 70vh;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     margin-bottom: 20px;
+  }
+  .project:hover {
+    height: 70vh;
+    max-width: 80vw;
+    transition: all 0.3s ease-in-out;
+    margin-left: 10px;
   }
   .container {
     /* height: 100vh; */
