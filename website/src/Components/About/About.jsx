@@ -19,11 +19,13 @@ function About(props) {
             each and every day taking on new challenges with my eagerness to
             expand my knowledge. I am currently looking for a position as a
             Software Developer in an environment where I feel I can continue to
-            grow.
+            grow and help produce amazing projects.
           </div>
           <p>
-            To learn more about my professional background click here to view my
+            To learn more about my professional background
+            <a target="_blank" rel="noreferrer"href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:62277453-c12e-4f57-835b-35f001897f61"> click here to view my
             resume.
+</a>
           </p>
         </div>
       </div>

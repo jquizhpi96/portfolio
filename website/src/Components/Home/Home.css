@@ -3,7 +3,7 @@ h1 {
 }
 
 .body {
-  /* height: 100vh; */
+  height: 100vh;
   transition: all 0.2s ease-in-out;
 
   /* background-image: linear-gradient(red, yellow); */
@@ -43,20 +43,57 @@ h1 {
   font-family: "Jost", sans-serif;
   line-height: 100px;
   /* text-shadow: 2px 2px #7c7c7c; */
-  color: rgb(73, 173, 255);
+  /* color: rgb(73, 173, 255); */
   text-shadow: 2px 2px #003ee9;
   z-index: 2;
   transition: ease-in-out 0.3s;
 }
 
-/* .name:hover {
-  text-shadow: 0 0 10px rgb(71, 166, 255), 0 0 20px rgb(72, 255, 0),
-    0 0 30px #25deff, 0 0 40px #0a1aff;
-  color: rgb(255, 255, 230); */
-/* color: rgb(73, 173, 255);
-  text-shadow: 2px 2px #003ee9; */
-/* transition: ease-in-out 0.3s;
+.title2::before {
+  border-right: 1px solid white;
+}
+/* .title2 {
+  animation: type 3s steps(18);
+  overflow: hidden;
+  white-space: nowrap;
+
+  width: 18ch;
 } */
+.title2 {
+  animation: type 3s steps(18);
+  overflow: hidden;
+  white-space: nowrap;
+
+  width: 18ch;
+  border-right: 1px solid rgba(255, 255, 255, 0.329);
+}
+.title2::after {
+  border-right: 0px;
+}
+
+.skill-text {
+  animation: blinking 1s infinite;
+}
+
+@keyframes blinking {
+  0%,
+  100% {
+    border-right: 2px solid transparent;
+    margin-left: 2px;
+  }
+  100% {
+    border-right: 2px solid white;
+  }
+}
+@keyframes type {
+  0% {
+    width: 0ch;
+  }
+  100% {
+    width: 18ch;
+  }
+}
+
 .load {
   position: relative;
   bottom: 360px;
@@ -64,15 +101,8 @@ h1 {
   width: 500px;
 
   opacity: 0.5;
-  /* position: relative;
-  opacity: 0.5;
-  filter: invert(100); */
 }
-/* @media (prefers-reduced-motion: no-preference) {
-  .load {
-    animation: App-logo-spin infinite 10s linear;
-  }
-} */
+
 .arrow:hover {
   color: rgb(73, 173, 255);
   transition: ease-in-out 0.2s;

@@ -14,14 +14,14 @@ function Contact(props) {
       <div className="contact-page">
         <h1 className="contact">Contact Me</h1>
         <div className="socials">
-          <a target="_blank"href="https://github.com/jquizhpi96">
+          <a target="_blank" rel="noreferrer"href="https://github.com/jquizhpi96">
             <img
               className="social"
               src=" https://res.cloudinary.com/briandanger/image/upload/v1568954107/linkedin_vnvo6s.png"
               alt="LinkedIn"
             />
           </a>
-          <a target="_blank"href="https://www.linkedin.com/in/jason-quizhpi-30a41b169/">
+          <a target="_blank" rel="noreferrer"href="https://www.linkedin.com/in/jason-quizhpi">
             {" "}
             <img
               className="social"
@@ -29,7 +29,7 @@ function Contact(props) {
               alt="Github"
             />
           </a>
-          <a className="social2" href="mailto: jquizhpi96@gmail.com">{icon}</a>
+          <a className="social2"rel="noreferrer" href="mailto: jquizhpi96@gmail.com">{icon}</a>
         </div>
        
       </div>
