@@ -121,9 +121,9 @@ h1 {
     font-size: 5em;
   }
   .title2 {
-    animation: type 3s steps(18);
+    animation: type 3s steps(22);
     font-size: 27px;
-    width: 18ch;
+    width: 22ch;
     border-right: 1px solid rgba(255, 255, 255, 0.329);
   }
   .skill-text {
