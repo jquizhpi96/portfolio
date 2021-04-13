@@ -83,7 +83,7 @@
 
 @media screen and (max-width: 480px) {
   .work-page {
-    height: 330vh;
+    height: 355vh;
     width: 100vw;
   }
   .projects {
@@ -99,7 +99,7 @@
     max-width: 80vw;
     height: 75vh;
     background-color: rgb(255, 255, 255);
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   .project:hover {
     height: 75vh;
