@@ -4,7 +4,7 @@ import './Home.css'
 import { Link } from 'react-router-dom';
 
 
-function Home(props) {
+function Home() {
   return (
     <Layout>
     <div className="body">
