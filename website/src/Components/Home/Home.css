@@ -110,6 +110,34 @@ h1 {
     transform: rotate(360deg);
   }
 }
+@media screen and (max-width: 1024px) {
+  .title2 {
+    animation: type 3s steps(19);
+    font-size: 26px;
+    width: 19ch;
+  }
+  .skill-text {
+    animation: blinking 1s infinite;
+  }
+  @keyframes blinking {
+    0%,
+    100% {
+      border-right: 2px solid transparent;
+      margin-left: 2px;
+    }
+    100% {
+      border-right: 2px solid white;
+    }
+  }
+  @keyframes type {
+    0% {
+      width: 0ch;
+    }
+    100% {
+      width: 18ch;
+    }
+  }
+}
 
 @media screen and (max-width: 480px) {
   .title2,
