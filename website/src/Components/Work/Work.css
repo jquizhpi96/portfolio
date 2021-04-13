@@ -11,7 +11,7 @@
   background-color: #191919;
   padding-top: 10px;
   padding-bottom: 10px;
-  height: 70vh;
+  /* height: 70vh; */
   border-radius: 20px;
   display: flex;
 
@@ -52,7 +52,7 @@
   padding: 20px;
   background-color: rgb(255, 255, 255);
   max-width: 60vw;
-  height: 80vh;
+  height: 70vh;
   margin-left: 80px;
   border-radius: 20px;
   transition: all 0.3s ease-in-out;
@@ -76,4 +76,29 @@
   border-style: none;
   padding: 10px;
   border-radius: 5px;
+}
+
+@media screen and (max-width: 480px) {
+  .projects {
+    flex-direction: column;
+    justify-content: center;
+    overflow-x: none;
+    overflow-y: none;
+  }
+  .project {
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 80vw;
+    height: 70vh;
+    background-color: white;
+    margin-bottom: 20px;
+  }
+  .container {
+    /* height: 100vh; */
+    display: block;
+  }
+
+  .project-img {
+    width: 80vw;
+  }
 }
