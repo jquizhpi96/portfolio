@@ -15,7 +15,7 @@ function About(props) {
           <div className="desc">
             A born and raised New Yorker who is a Visual Artist and a Full-Stack
             Developer. With a diverse skillset in solving problems and eye for
-            deisgn, I am passionate about my work and my constant growth inside
+            design, I am passionate about my work and my constant growth inside
             and outside of development. What sets me apart is how I approach
             each and every day taking on new challenges with my eagerness to
             expand my knowledge. I am currently looking for a position as a
