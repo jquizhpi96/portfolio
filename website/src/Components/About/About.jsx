@@ -26,7 +26,7 @@ function About(props) {
 </a></p>
           <p>
             To learn more about my professional background
-            <a target="_blank" rel="noreferrer"href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:62277453-c12e-4f57-835b-35f001897f61"> click here to view my
+            <a target="_blank" rel="noreferrer"href="https://drive.google.com/file/d/1w_4IdjqQfopMoPheTMAuIe6GcbH8RmOV/view?usp=sharing"> click here to view my
             resume.
 </a>
           </p>
